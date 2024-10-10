@@ -1,0 +1,93 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: rgb(125, 125, 255); 
+    padding: 20px; 
+    padding-top: 40px;
+    border-radius: 12px; 
+    margin: 90px;
+}
+
+.form-wrapper {
+    background-color: rgb(125, 125, 255); 
+    padding: 90px;
+    border-radius: 12px; 
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  */
+    width: 400px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #ffffff; 
+    margin-bottom: 8px; 
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px; 
+    border: 1px solid #000000;
+    font-size: 14px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #45a049; 
+    box-shadow: 0 0 8px rgba(69, 160, 73, 0.5); 
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px; 
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.save-btn {
+    background-color: #00f7ff; 
+    color: #000000;
+}
+
+.save-btn:hover {
+    background-color: #202220; 
+    transform: translateY(-2px); 
+}
+
+.back-btn {
+    background-color: #000000;
+    color: #ff0000;
+}
+
+.back-btn:hover {
+    background-color: #d32f2f; 
+    transform: translateY(-2px); 
+}
+
+
+@media (max-width: 480px) {
+    .form-wrapper {
+        width: 90%; 
+    }
+}
