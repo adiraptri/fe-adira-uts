@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/fe-adira-uts/static/css/main.cd843849.css",
+    "main.js": "/fe-adira-uts/static/js/main.f145a2aa.js",
+    "static/media/bos.jpeg": "/fe-adira-uts/static/media/bos.0c315d5579c094fea2b1.jpeg",
+    "static/media/famale.png": "/fe-adira-uts/static/media/famale.3c64d646facfcab71574.png",
+    "static/media/two.png": "/fe-adira-uts/static/media/two.0481db2ea5e21c5ccac0.png",
+    "static/media/Data.jpeg": "/fe-adira-uts/static/media/Data.f98c2e1e2d407567daac.jpeg",
+    "index.html": "/fe-adira-uts/index.html",
+    "main.cd843849.css.map": "/fe-adira-uts/static/css/main.cd843849.css.map",
+    "main.f145a2aa.js.map": "/fe-adira-uts/static/js/main.f145a2aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd843849.css",
+    "static/js/main.f145a2aa.js"
+  ]
+}
